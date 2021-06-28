@@ -36,7 +36,7 @@ const LotteryCard = () => {
         <StyledHeadingText bold mb="24px">
           PancakeSwap {t('Lottery')} V2
         </StyledHeadingText>
-        <StyledText bold mb="24px" color="#7645d9">
+        <StyledText bold mb="24px" color="#449D52">
           {t('Coming Soon...')}
         </StyledText>
         <Link external href="https://pancakeswap.medium.com/pancakeswap-april-may-recap-a4e7cf990f72">

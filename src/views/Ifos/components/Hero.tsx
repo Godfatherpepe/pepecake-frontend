@@ -6,10 +6,10 @@ import { useTranslation } from 'contexts/Localization'
 
 const getGradient = (isDark: boolean) => {
   if (isDark) {
-    return 'repeating-linear-gradient(to right, #332453, #332453 40px, #281D44 40px, #281D44 80px)'
+    return 'repeating-linear-gradient(to right, #506C8C, #506C8C 40px, #506C8C 40px, #506C8C 80px)'
   }
 
-  return 'repeating-linear-gradient(to right, #21d4e2, #21d4e2 40px, #53dee9 40px, #53dee9 80px)'
+  return 'repeating-linear-gradient(to right, #506C8C, #506C8C 40px, #506C8C 40px, #506C8C 80px)'
 }
 
 const StyledHero = styled.div`

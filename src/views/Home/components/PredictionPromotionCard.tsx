@@ -107,11 +107,11 @@ const PredictionPromotionCard = () => {
     <StyledPredictionCard>
       <CardBody>
         <StyledHeaderText mb="24px">{t('Predictions Now Live')}</StyledHeaderText>
-        <StyledText bold color="#7645d9">
+        <StyledText bold color="#449D52">
           {over}
         </StyledText>
         {bnbWonInUsd ? (
-          <StyledBalance mb="24px" color="#7645d9" bold prefix="$" decimals={0} value={bnbWonInUsd} />
+          <StyledBalance mb="24px" color="#449D52" bold prefix="$" decimals={0} value={bnbWonInUsd} />
         ) : (
           <>
             <StyledSkeleton animation="pulse" variant="rect" mb="24px" width={180} />
