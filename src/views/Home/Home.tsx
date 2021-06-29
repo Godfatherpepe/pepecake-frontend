@@ -13,8 +13,7 @@ import WinCard from './components/WinCard'
 
 const Hero = styled.div`
   align-items: center;
- 
-  
+
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -26,7 +25,6 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-  
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
